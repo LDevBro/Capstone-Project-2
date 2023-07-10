@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container-one {
+    display: flex;
+    flex-direction: row;
+    background-image: url(./Assets/Hero\ img.png);
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noticia Text', serif;
+    text-transform: uppercase;
+    color: mid;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+.titlep {
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.imgone {
+    height: 300px;
+    padding: 0;
+    padding-top: 100px;
+    margin: 0;
+}
+
+.flex-container-two {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px 0px 50px 0px;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    align-items: stretch;
+}
+
+#h2 {
+    display: flex;
+    margin: 30px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: stretch;
+}
+
+.imgmarg {
+    padding: 15px;
+}
+
+.btn-primary {
+    background-color: midnightblue;
+    border: none;
+}
+
+.flex-container-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    background-color: black;
+}
+
+.featurette {
+    margin: 10rem;
+}
+
+.job-piccon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border-radius: 20px;
+}
+
+.job-pic1 {
+    display: flex;
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.job-pic2 {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+.footer-container {
+    display: flex;
+    background-image: url(./Assets/Hero\ img.png);
+    height: 7rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-content {
+    color: white;
+    padding: 50px;
+}
+
+
+
+
+@media (max-width: 576px) {
+    .flex-container-one {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .titlep {
+        margin-top: 0px;
+    }
+
+    .imgone {
+        padding-top: 0;
+        height: 200px;        
+    }
+
+}
+
+
+
